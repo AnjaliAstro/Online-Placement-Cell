@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".addTpo" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/addAlumniName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Alumni Name"
+                android:layout_marginVertical="15dp"
+                />
+
+            <EditText
+                android:id="@+id/addPassYearAlumni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Passout Year"
+                android:inputType="textPersonName"
+                android:layout_marginVertical="15dp"
+                />
+
+            <EditText
+                android:id="@+id/addAlumniEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Enter Alumni Email"
+                android:layout_marginVertical="15dp"
+                />
+
+
+
+            <EditText
+                android:id="@+id/addAlumniId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ID"
+                android:ems="10"
+                android:layout_marginVertical="15dp"
+                />
+
+            <EditText
+                android:id="@+id/addAlumniBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Branch"
+                android:ems="10"
+                android:layout_marginVertical="15dp"
+                />
+
+            <EditText
+                android:id="@+id/AlumniCurrentPos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Currently At"
+                android:ems="10"
+                android:layout_marginVertical="15dp"
+                />
+            <EditText
+                android:id="@+id/addAlumniPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Temporary Password"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginVertical="15dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/addAlumniRegister"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:text="Register"
+                android:background="@drawable/round_btn"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

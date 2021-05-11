@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sendersID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendNotification"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/receiversId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginVertical="20dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Receiver Students ID" />
+
+    <EditText
+        android:id="@+id/notifMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginVertical="20dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Message" />
+
+    <Button
+        android:id="@+id/sendNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:text="Sned Notification"
+        android:background="@drawable/round_btn"/>
+
+    <Button
+        android:id="@+id/sendToAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Notification To All Students"
+        android:background="@drawable/round_btn"/>
+
+</LinearLayout>

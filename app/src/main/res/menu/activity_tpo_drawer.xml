@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/acc_detail_tpo"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Account Details" />
+
+        <item
+            android:id="@+id/send_notification_tpo"
+            android:icon="@drawable/ic_add_student"
+            android:title="Send Notification" />
+
+        <item
+            android:id="@+id/uploadpdf_tpo"
+            android:icon="@drawable/ic_picture_as_pdf_black_24dp"
+            android:title="Upload Previous Papers " />
+
+
+        <item
+            android:id="@+id/addcomp_tpo"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Add Company " />
+        
+
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/log_out_symbol_tpo"
+                android:icon="@drawable/ic_log_out"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>
